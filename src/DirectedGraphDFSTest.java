@@ -27,7 +27,7 @@ public class DirectedGraphDFSTest {
 
         System.out.println("Graph One:");
         // Traverse the depth first search order of the graph
-        for (int v : testCaseOneDFS.directedOrder()) {
+        for (int v : testCaseOneDFS.dfsOrder()) {
             // Output the parent vertex of the current vertex v
             int parent = testCaseOneDFS.parentNode(v);
             // Output the order in which the vertex was discovered
@@ -65,7 +65,7 @@ public class DirectedGraphDFSTest {
         GraphDFS testCaseTwoDFS = new GraphDFS(testCaseTwoGraph, testTwo[0]);
         System.out.println("Graph Two:");
         // Traverse the depth first search order of the graph
-        for (int v : testCaseTwoDFS.directedOrder()) {
+        for (int v : testCaseTwoDFS.dfsOrder()) {
             // Output the parent vertex of the current vertex v
             int parent = testCaseTwoDFS.parentNode(v);
             // Output the order in which the vertex was discovered
