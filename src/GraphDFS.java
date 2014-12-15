@@ -131,7 +131,7 @@ public class GraphDFS {
      * Returns the dfs order for the graph
      * @return vertexDFS
      */
-    public Iterable<Integer> directedOrder() {
+    public Iterable<Integer> dfsOrder() {
         return vertexDFS;
     }
 
